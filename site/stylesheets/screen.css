@@ -1,0 +1,39 @@
+/* line 1 */
+body {
+  font: normal 14px/150% Helvetica, Arial, sans-serif;
+  background: #eeeeee;
+}
+
+/* line 5 */
+h1 {
+  padding: 0 0 20px 0;
+  margin: 0;
+  line-height: 120%;
+  cursor: pointer;
+}
+
+/* line 11 */
+.details, p {
+  width: 800px;
+  padding: 20px 30px;
+  margin: 0 auto;
+  background: white;
+}
+/* line 16 */
+.details + .details, p + .details {
+  padding-top: 0;
+}
+/* line 18 */
+.details p, p p {
+  padding: 0 0 20px 0;
+}
+
+/* line 20 */
+p {
+  padding-top: 0;
+}
+
+/* line 23 */
+.full_post {
+  display: none;
+}
